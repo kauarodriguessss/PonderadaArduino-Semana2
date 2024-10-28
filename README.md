@@ -52,7 +52,7 @@ Para complementar o entendimento do projeto, abaixo segue a lista dos componente
 #
 
 # Parte 2: Programação e Lógica do Semáforo
-Nesta etapa eu realizei o código para o projeto. O código fonte está no repositório e ele segue a seguinte regra para a sequência dos faróis
+Nesta etapa eu realizei o código para o projeto. O código fonte está no repositório e ele segue a seguinte regra para a sequência dos faróis.
 
 - 6 segundos no vermelho
 - 2 segundos no amarelo
@@ -61,12 +61,16 @@ Nesta etapa eu realizei o código para o projeto. O código fonte está no repos
 - +2 segundos no verde (simulando um tempo adicional para pedestres terminarem a travessia)
 - 2 segundos no amarelo
 
-**Vídeo para assistir a sequencia do farol funcionando abaixo:**
-https://drive.google.com/file/d/1HDDRxvw68jtXrUohjHZ7eKXzTWF8-zts/view?usp=sharing
+Antes de iniciar o projeto na protoboard, eu desenvolvi o mesmo projeto utilizando o tinkercad:
+https://www.tinkercad.com/things/0KDSNfUrEdi-neat-allis-amur/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=kt3oytEjUobuAIcu1dLPgLgYmvioTgJETUjUwFfU5bk 
 
 Eu também tirei uma foto, mas para a documentação nao ficar muito poluido com muitas imagens, gerei essa edição com a sequencia dos leds:
 
 ![Sequencia](https://github.com/user-attachments/assets/9ed5e3d4-b565-419b-b164-06953ae0df6a)
+
+**Vídeo para assistir a sequencia do farol funcionando abaixo:**
+https://drive.google.com/file/d/1HDDRxvw68jtXrUohjHZ7eKXzTWF8-zts/view?usp=sharing
+
 
 #
 
