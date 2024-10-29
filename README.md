@@ -98,7 +98,7 @@ https://drive.google.com/file/d/1noJPjZqbdNEEr5fKHAw_qF7nhHnEVbJh/view?usp=shari
 
 
 # Parte 2: Programação e Lógica do Semáforo
-Como eu já havia desenvolvido a atividade antes da aula. Terá 2 códigos no repositório e o código com a nova lógica se chama "XPTO".
+Como eu já havia desenvolvido a atividade antes da aula. Terá 2 códigos no repositório e o código com a nova lógica se chama "FarolComSensor".
 
 A lógica consiste em, ser um farol, porém com um sensor de luminosidade que enquanto houver luz o farol fica verde (indicando que não tem nenhuma pessoa querendo atravessar), porem quando fica sombra (indicando que tem uma pessoa esperando para passar) o farol passa a ficar amarelo por 4 segundos e vermelho por 6 segundos. Depois volta a ficar verde novamente esperando indentificar outro momento de sombra para fechar o farol.
 
