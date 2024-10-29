@@ -74,5 +74,35 @@ https://drive.google.com/file/d/1HDDRxvw68jtXrUohjHZ7eKXzTWF8-zts/view?usp=shari
 
 #
 
-# Parte 3: Avaliação de Pares
-[Aguardando...]
+# NOVO PROJETO DESENVOLVIDO EM SALA DE AULA (SUPORTE DO FAROL)
+Temos um grande update desta atividade, pois a professora de design, Bruna, desenvolveu um suporte para os leds, e a atividade foi refeita durante o horário de aula utilizando o suporte. Sendo assim, daqui para baixo, está o desenvolvimento da atividade porém com o suporte.
+
+# Parte 1 - Montagem Física do Semáforo
+Abaixo vou deixar um link de um vídeo do projeto que eu desenvolvi:
+https://drive.google.com/file/d/1noJPjZqbdNEEr5fKHAw_qF7nhHnEVbJh/view?usp=sharing
+
+# Especificações dos Componentes Utilizados
+
+| Componente                | Descrição                                                                                          | Especificações Técnicas                                                                                                                                                       | Aplicação no Projeto                                                                                           |
+|---------------------------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| **Sensor de Luz (LDR)**   | Sensor que detecta a luminosidade do ambiente. Varia sua resistência conforme a intensidade da luz | - Resistência no escuro: ~1 MΩ <br> - Resistência sob luz intensa: ~10 kΩ <br> - Resposta rápida às mudanças de luminosidade                                                | Detecta quando o ambiente está escuro, ativando a lógica do semáforo.                                          |
+| **LED Vermelho**          | LED que emite luz na cor vermelha, indicado para sinalização de alerta ou "pare".                  | - Tensão direta: ~1.8V a 2.2V <br> - Corrente: 20 mA                                                                                                                          | Sinaliza que o semáforo está na fase de parada quando o ambiente está escuro.                                  |
+| **LED Verde**             | LED que emite luz na cor verde, geralmente utilizado para indicar status de "siga".               | - Tensão direta: ~2.0V a 3.0V <br> - Corrente: 20 mA                                                                                                                          | Sinaliza que o semáforo está na fase de passagem livre.                                                        |
+| **LED Amarelo**           | LED que emite luz na cor amarela, utilizado para indicar atenção ou transição.                    | - Tensão direta: ~2.0V a 2.5V <br> - Corrente: 20 mA                                                                                                                          | Indica fase intermediária antes da ativação do LED vermelho.                                                   |
+| **Resistores (4)**        | Limitam a corrente elétrica, protegendo os LEDs e o sensor de luz de sobrecorrente.               | - Resistência: 220Ω a 1kΩ (valor sugerido) <br> - Tolerância: ±5%                                                                                                            | Um resistor é utilizado em série com cada LED e o sensor para garantir a segurança dos componentes.            |
+| **Jumpers Macho-Macho (8)** | Cabos de conexão para ligar os componentes à protoboard e ao Arduino.                          | - Tipo de Conexão: Macho para Macho <br> - Comprimento: Geralmente entre 10 cm a 20 cm                                                                                        | Interconectam o sensor de luz, LEDs, resistores e a placa do Arduino na protoboard.                            |
+| **Jumpers Macho-Fêmea (6)** | Cabos de conexão usados para conectar componentes com pinos fêmea.                            | - Tipo de Conexão: Macho para Fêmea <br> - Comprimento: Geralmente entre 10 cm a 20 cm                                                                                        | Facilita as conexões entre o Arduino e a protoboard.                                                           |
+| **Protoboard**            | Placa de prototipagem que permite montar circuitos sem a necessidade de solda.                    | - Dimensões: Varia entre 170 a 830 pontos de conexão <br> - Conexões: Pistas de alimentação laterais e área central para componentes                                         | Utilizada para montar o circuito dos LEDs e do sensor de luz.                                                  |
+| **Arduino Uno**           | Placa microcontroladora baseada no ATmega328P.                                                    | - Tensão de Operação: 5V <br> - Pinos Digitais: 14 (6 podem ser usados como PWM) <br> - Pinos Analógicos: 6 <br> - Corrente DC por pino I/O: 20 mA | Controla a lógica do semáforo e processa os sinais recebidos do sensor de luz.                                 |
+
+
+
+# Parte 2: Programação e Lógica do Semáforo
+Como eu já havia desenvolvido a atividade antes da aula. Terá 2 códigos no repositório e o código com a nova lógica se chama "XPTO".
+
+A lógica consiste em, ser um farol, porém com um sensor de luminosidade que enquanto houver luz o farol fica verde (indicando que não tem nenhuma pessoa querendo atravessar), porem quando fica sombra (indicando que tem uma pessoa esperando para passar) o farol passa a ficar amarelo por 4 segundos e vermelho por 6 segundos. Depois volta a ficar verde novamente esperando indentificar outro momento de sombra para fechar o farol.
+
+Voce pode verificar o funcionamento do projeto com o vídeo a seguir:
+https://drive.google.com/file/d/1KizCjeezN-gzNzNmao0sSrPfmNECFQva/view?usp=sharing
+
+# Parte 3: Avaliação em Pares
