@@ -106,3 +106,12 @@ Voce pode verificar o funcionamento do projeto com o vídeo a seguir:
 https://drive.google.com/file/d/1KizCjeezN-gzNzNmao0sSrPfmNECFQva/view?usp=sharing
 
 # Parte 3: Avaliação em Pares
+### Avaliador: Ian Pereira Simão
+
+| Critério                                                                                                 | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
+|---------------------------------------------------------------------------------------------------------|--------------------|----------------------------------|--------------------------|---------------------------|
+| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores                | Até 3              | Até 1,5                            | 0                        |    A utilização dos resistores está correta, me atentaria para o uso do resistor no ground ao invés de usá-lo no positivo.   |
+| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo                  | Até 3              | Até 1,5                          | 0                        |       Apesar da inversão da ordem dos comandos a temporização está correta.     | 
+| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3              | Até 1,5                          | 0                        |  os códigos estão bem implementados e comentados.  |
+| Extra: Implmeentou um componente de liga/desliga no semáforo e/ou usou ponteiros no código | Até 1              |  Até 0,5                         | 0                        |        o sensor de luminosidade é uma boa utilização de componente para esta implementação, parabens!                   |
+|  |                                                             |  | |*Pontuação Total 10*|
