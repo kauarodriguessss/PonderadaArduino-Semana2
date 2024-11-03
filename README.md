@@ -115,3 +115,15 @@ https://drive.google.com/file/d/1KizCjeezN-gzNzNmao0sSrPfmNECFQva/view?usp=shari
 | Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3              | Até 1,5                          | 0                        |  os códigos estão bem implementados e comentados.  |
 | Extra: Implmeentou um componente de liga/desliga no semáforo e/ou usou ponteiros no código | Até 1              |  Até 0,5                         | 0                        |        o sensor de luminosidade é uma boa utilização de componente para esta implementação, parabens!                   |
 |  |                                                             |  | |*Pontuação Total 10*|
+
+# 
+
+### Avaliador: Vinícius Maciel
+
+| Critério                                                                                                 | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
+|---------------------------------------------------------------------------------------------------------|--------------------|----------------------------------|--------------------------|---------------------------|
+| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores                | 3                  |                                  | 0                        | Montagem bem organizada e uso adequado das cores dos fios. |
+| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo                  | 3                  |                                  | 0                        | Temporização realizada conforme o esperado, precisa e consistente. |
+| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | 3                  |                                  | 0                        | Código bem estruturado e fácil de entender, com variáveis bem nomeadas. |
+| Extra: Implementou um componente de liga/desliga no semáforo e/ou usou ponteiros no código              | 1                  |                                  | 0                        | Recurso extra implementado de maneira eficiente. |
+|                                                                                                         |                    |                                  |                          | **Pontuação Total: 10** |
